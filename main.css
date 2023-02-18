@@ -1,0 +1,99 @@
+/* 	CSS Design from YouTuber Dev Ed (developedbyed)
+	https://youtu.be/O7WbVj5apxU	*/
+
+/* This is to reset the default margin that web browsers typically use AKA a CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling of the different kinds of text */
+h2 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+h3 {
+    color: #658ec6;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+p {
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+main {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+
+    /* flex so that the items will auto align*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: white;
+    min-height: 80vh;
+    width: 70%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25));
+    border-radius: 32px;
+    z-index: 2;
+    backdrop-filter: blur(1.5rem);
+    display: flex;
+}
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25));
+    border-radius: 2rem;
+}
+
+/* Padding, Margin, Display, and Alignment stylings of specific texts */
+.user-info {
+    padding: 3rem 0rem 3rem;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 2rem;
+}
+
+.personal-info h3 {
+    padding: 1rem 0rem;
+}
+
+/* Styling of background elements/the two circles */
+.circle1,
+.circle2 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    height: 25vh;
+    width: 25vh;
+    position: absolute;
+    border-radius: 50%;
+}
+
+/* Placement of the two circles in the background*/
+.circle1 {
+    top: 5%;
+    right: 10%;
+}
+
+.circle2 {
+    bottom: 5%;
+    left: 7%;
+}
