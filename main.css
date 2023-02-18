@@ -76,6 +76,15 @@ main {
     padding: 1rem 0rem;
 }
 
+.facts {
+    flex: 2;
+}
+
+.titles,
+.content {
+    margin: 2rem;
+}
+
 /* Styling of background elements/the two circles */
 .circle1,
 .circle2 {
